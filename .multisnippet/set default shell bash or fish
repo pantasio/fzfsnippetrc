@@ -1,0 +1,9 @@
+set default shell bash or fish need reload system
+echo $SHELL
+If you wish to use fish as your default shell, use the following command:
+chsh -s /usr/local/bin/fish
+To switch your default shell back, you can run:
+chsh -s /bin/bash
+
+reload fish config files as you would in bash?
+. .config/fish/config.fish

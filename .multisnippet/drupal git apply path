@@ -1,0 +1,2 @@
+drupal git apply path 
+after apply patch, in module will create .git. So project cant git commit, we must delete .git in module..

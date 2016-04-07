@@ -1,0 +1,5 @@
+drush install guild
+command a
+command b
+command c
+command d

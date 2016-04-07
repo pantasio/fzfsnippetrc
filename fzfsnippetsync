@@ -1,0 +1,19 @@
+#!/bin/bash -       
+#title           : fzf-snippetrc project for LinuxMint 17.x 
+#description     : This script will make a header for a bash script.
+#author		 			 : pantasio      Email:pantasio@yahoo.com.vn
+#date            : 20160407
+#version         : 0.1    
+#usage		 			 :copy all file to project
+#notes           :
+#fish_version    :
+# this scriprt copy file to ~/Workspace/fzfsnippet/
+# 
+# /home/pantasio/.snippetrc
+# /home/pantasio/.multisnippet/*
+
+
+
+
+cp -p /home/pantasio/.snippetrc ~/Workspace/fzfsnippet/
+cp -p /home/pantasio/.multisnippet/* ~/Workspace/fzfsnippet/.multisnippet/
