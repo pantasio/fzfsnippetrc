@@ -17,3 +17,7 @@
 
 cp -p /home/pantasio/.snippetrc ~/Workspace/fzfsnippet/
 cp -p /home/pantasio/.multisnippet/* ~/Workspace/fzfsnippet/.multisnippet/
+
+git add . 
+git commit -m "this commit is generate by fzfsnippet script. Use for update project before shutdown PC" 
+git push -u origin master 
